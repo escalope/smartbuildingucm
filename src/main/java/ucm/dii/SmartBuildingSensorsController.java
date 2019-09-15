@@ -17,7 +17,7 @@ public class SmartBuildingSensorsController {
 
 	@RequestMapping("/house/temp/{id}")
 	public double getApartmentTemperature(@PathVariable("id") String id) {
-		if (id.equals(code))
+		if (id.equals(code1))
 			return 20f*Math.random();
 		else 
 			if (id.equals(code2))
