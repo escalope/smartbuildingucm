@@ -43,7 +43,7 @@ height: 400,
 
 // it connects to a SSE source. Any method in the server side
 // returning a SSE emitter
-var source = new EventSource("/sensorstream");
+var source = new EventSource("/building/temprt");
 
 // binds the opening of the channel to a console message 
 source.addEventListener('open', function (e) {

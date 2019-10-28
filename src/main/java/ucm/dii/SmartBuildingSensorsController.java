@@ -55,7 +55,7 @@ public class SmartBuildingSensorsController {
 	  * specific javascript
 	  * @return
 	  */
-     @GetMapping("/sensorstream")
+     @GetMapping("/building/temprt")
      public SseEmitter getNewNotification() {
     	 	 // create a server side event emitter
              SseEmitter emitter = new SseEmitter();
